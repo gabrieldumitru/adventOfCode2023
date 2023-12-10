@@ -29,7 +29,7 @@ for (int i = 0; i < cards.Length; i++)
 
     for (int j = i + 1; j <= i + matchingNumbers; j++)
     {
-        scratchCardInstances[j] += 1 * scratchCardInstances[i];
+        scratchCardInstances[j] += scratchCardInstances[i];
     }
 }
 
